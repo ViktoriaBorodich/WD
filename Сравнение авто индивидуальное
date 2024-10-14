@@ -1,0 +1,218 @@
+<html>
+<head>
+<title>Сравнение автомобилей</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+    background-color: #FF6500;
+    text-align: center;
+    background-image: url(автоиндив.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .zagolovok {font-family: ARIAL BLACK;
+    background-image: url(вояж.jpg);
+    color: #ffffff;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: black;
+  }
+  th, td {
+    border: 1px solid #FF6500;
+    padding: 10px;
+    text-align: center;
+  }
+  th {font-family: ARIAL BLACK;
+    background-color: #1E3E62;
+    color: white;
+  }
+  blockquote {font-family:SEGOE SCRIPT;
+    border-left: 5px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+</style>
+</head>
+<body>
+
+<h1 class="zagolovok">Сравнение автомобилей</h1>
+<section>Приветствуем всех посетителей сайта!<br>Надеемся предоставленная информация будет вам полезна при выборе будущего автомобиля.</section> 
+<hr />
+
+<nav>
+  <a href="#ford">Ford</a> |
+  <a href="#honda">Honda</a> |
+  <a href="#chevrolet">Chevrolet</a>
+</nav>
+
+<figure id="ford">
+  <img src="ford.jpg" alt="Ford" width="400" height="250">
+  <figcaption>Ford - Надежный и мощный автомобиль.</figcaption>
+</figure>
+
+<figure id="honda">
+  <img src="honda.jpg" alt="Honda" width="400" height="250">
+  <figcaption>Honda - Экономичный и экологичный автомобиль.</figcaption>
+</figure>
+
+<figure id="chevrolet">
+  <img src="chevrolet.jpg" alt="Chevrolet" width="400" height="250">
+  <figcaption>Chevrolet - Стильный и комфортный автомобиль.</figcaption>
+</figure>
+
+<table>
+  <caption>Сравнение характеристик автомобилей Ford, Honda и Chevrolet</caption>
+  <thead>
+    <tr>
+      <th>Характеристика</th>
+      <th>Ford</th>
+      <th>Honda</th>
+      <th>Chevrolet</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Тип двигателя</td>
+      <td>Бензиновый, гибридный, электрический</td>
+      <td>Бензиновый, гибридный, электрический</td>
+      <td>Бензиновый, дизельный, электрический</td>
+    </tr>
+    <tr>
+      <td>Расход топлива</td>
+      <td>6-12 л/100 км</td>
+      <td>5-10 л/100 км</td>
+      <td>7-14 л/100 км</td>
+    </tr>
+    <tr>
+      <td>Тип</td>
+      <td>Механическая, автоматическая</td>
+      <td>Механическая, автоматическая</td>
+      <td>Механическая, автоматическая</td>
+    </tr>
+    <tr>
+      <td>Количество передач</td>
+      <td>5-10 передач</td>
+      <td>5-10 передач</td>
+      <td>5-10 передач</td>
+    </tr>
+    <tr>
+      <td>Габариты (длина, ширина, высота)</td>
+      <td>4.5 м, 1.8 м, 1.6 м</td>
+      <td>4.4 м, 1.8 м, 1.6 м</td>
+      <td>4.6 м, 1.9 м, 1.7 м</td>
+    </tr>
+    <tr>
+      <td>Объем багажника</td>
+      <td>500-700 л</td>
+      <td>450-650 л</td>
+      <td>500-750 л</td>
+    </tr>
+    <tr>
+      <td>Системы безопасности</td>
+      <td>
+        <details>
+          <summary>Подробнее</summary>
+          ABS, ESP, подушки безопасности
+        </details>
+      </td>
+      <td>
+        <details>
+          <summary>Подробнее</summary>
+          ABS, ESP, подушки безопасности
+        </details>
+      </td>
+      <td>
+        <details>
+          <summary>Подробнее</summary>
+          ABS, ESP, подушки безопасности
+        </details>
+      </td>
+    </tr>
+    <tr>
+      <td>Рейтинг краш-тестов</td>
+      <td>5 звезд (Euro NCAP)</td>
+      <td>5 звезд (Euro NCAP)</td>
+      <td>5 звезд (Euro NCAP)</td>
+    </tr>
+    <tr>
+      <td>Разгон до 100 км/ч</td>
+      <td>6-8 секунд</td>
+      <td>7-9 секунд</td>
+      <td>6-8 секунд</td>
+    </tr>
+    <tr>
+      <td>Максимальная скорость</td>
+      <td>200-250 км/ч</td>
+      <td>180-220 км/ч</td>
+      <td>190-240 км/ч</td>
+    </tr>
+    <tr>
+      <td>Начальная цена модели</td>
+      <td>$25,000</td>
+      <td>$24,000</td>
+      <td>$26,000</td>
+    </tr>
+    <tr>
+      <td>Наличие Wi-Fi и Bluetooth</td>
+      <td>Да</td>
+      <td>Да</td>
+      <td>Да</td>
+    </tr>
+    <tr>
+      <td>Тормозная система</td>
+      <td>Дисковые</td>
+      <td>Дисковые</td>
+      <td>Дисковые</td>
+    </tr>
+    <tr>
+      <td>Системы предотвращения столкновений</td>
+      <td>Да</td>
+      <td>Да</td>
+      <td>Да</td>
+    </tr>
+    <tr>
+      <td>Гарантийный срок</td>
+      <td>5 лет или 100,000 км</td>
+      <td>5 лет или 100,000 км</td>
+      <td>5 лет или 100,000 км</td>
+    </tr>
+    <tr>
+      <td>Дата выпуска модели</td>
+      <td><time datetime="2023-01">Январь 2023</time></td>
+      <td><time datetime="2023-02">Февраль 2023</time></td>
+      <td><time datetime="2023-03">Март 2023</time></td>
+    </tr>
+  </tbody>
+</table>
+<hr/>
+<blockquote>
+    "Ford - это надежный автомобиль, который никогда не подводит. Отличное соотношение цены и качества." - Петр Швед
+  </blockquote>
+  <blockquote>
+    "Honda - это экономичный и экологичный выбор. Я очень доволен своей покупкой." - Виктория Бородич
+  </blockquote>
+  <blockquote>
+    "Chevrolet - это стиль и комфорт в одном автомобиле. Рекомендую всем!" - Татьяна Новик
+  </blockquote>
+  
+  <section>
+    <h2 style="font-family: 'Arial Black'; color: #142d89;">Прогресс разработки новых моделей</h2>
+    <p>Ford:</p>
+    <progress value="70" max="100"></progress>
+    <p>Honda:</p>
+    <progress value="80" max="100"></progress>
+    <p>Chevrolet:</p>
+    <progress value="60" max="100"></progress>
+  </section>
+  
+</body>
+</html>
