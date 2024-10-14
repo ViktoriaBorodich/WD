@@ -1,0 +1,176 @@
+<html>
+<head>
+<title>Сравнение автомобилей</title>
+<style>
+ body {
+  font-family: Arial, sans-serif;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: #b3f4c9;
+  text-align: center;
+  background-image: url(авто.jpg);
+  background-size: cover; /* Изображение будет покрывать весь фон */
+  background-position: center; /* Центрирование изображения */
+  background-repeat: no-repeat; /* Изображение не будет повторяться */
+}
+
+  .zagolovok {
+    background-image: url(ягуар.jpg);
+    color: rgb(255, 255, 255);
+  }
+  table {
+    width: 1200px;
+    border-top: 10px solid rgb(45, 129, 17);
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px solid #629584;
+  }
+  td {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(43, 129, 17);
+  }
+  th {
+    background-image: url(ягуар.jpg);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(43, 129, 17);
+  }
+</style>
+</head>
+
+<body>
+
+<h1 class="zagolovok">Сравнение автомобилей</h1>
+<img src="ламба.jpg" title="" height="250" width="400">
+<img src="вояж.jpg" title="" height="250" width="400">
+<img src="ягуар.jpg" title="" height="250" width="400">
+<table align="center">
+<caption>Сравнение трех марок автомобилей</caption>
+<thead>
+<tr> <th>Номер характеристики</th> <th>Характеристика</th> <th>Lamborghini</th> <th>Voyah</th> <th>Jaguar</th> </tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td><mark>Самая дорогая модель</mark></td>
+  <td>
+    <details>
+      <summary>Lamborghini Aventador SVJ</summary>
+      Около $517,000
+    </details>
+  </td>
+  <td>
+    <details>
+      <summary>Voyah Free EV</summary>
+      Около $120,000
+    </details>
+  </td>
+  <td>
+    <details>
+      <summary>Jaguar F-Type SVR</summary>
+      Около $123,600
+    </details>
+  </td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><mark>Самая дешёвая модель</mark></td>
+  <td>
+    <details>
+      <summary>Lamborghini Huracan</summary>
+      Около $206,000
+    </details>
+  </td>
+  <td>
+    <details>
+      <summary>Voyah Free Hybrid</summary>
+      Около $50,000
+    </details>
+  </td>
+  <td>
+    <details>
+      <summary>Jaguar XE</summary>
+      Около $46,000
+    </details>
+  </td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><mark>Двигатель</mark></td>
+  <td>
+    <details>
+      <summary>Lamborghini Aventador SVJ</summary>
+      V12, 6.5 литра
+    </details>
+  </td>
+  <td>
+    <details>
+      <summary>Voyah Free Hybrid</summary>
+      1.5T EVR Hybrid или полностью электрический (Free EV)
+    </details>
+  </td>
+  <td>
+    <details>
+      <summary>Jaguar F-Type SVR</summary>
+      V8, 5.0 литра
+    </details>
+  </td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><mark>Расход топлива</mark></td>
+  <td>Около 15 л/100 км</td>
+  <td>Около 15 л/100 км</td>
+  <td>Около 11 л/100 км</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><mark>Скорость</mark></td>
+  <td>Разгон до 100 км/ч за 2.8 секунды</td>
+  <td>Разгон до 100 км/ч за 4.6 секунды</td>
+  <td>Разгон до 100 км/ч за 3.5 секунды</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td><mark>Наличие экологических сертификатов</mark></td>
+  <td>Нет</td>
+  <td>Да, для электрических моделей</td>
+  <td>Да, для электрических и гибридных моделей</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td><mark>Гарантийный срок</mark></td>
+  <td>3 года</td>
+  <td>5 лет или 100,000 км</td>
+  <td>5 лет или 60,000 миль</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td><mark>Максимальная скорость</mark></td>
+  <td>350 км/ч</td>
+  <td>200 км/ч</td>
+  <td>322 км/ч</td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><mark>Тип</mark></td>
+  <td>Автоматическая</td>
+  <td>Автоматическая</td>
+  <td>Автоматическая</td>
+</tr>
+<tr>
+  <td>10</td>
+  <td><mark>Количество передач</mark></td>
+  <td>7 передач</td>
+  <td>1 передача (Free EV) или 6 передач (Free Hybrid)</td>
+  <td>8 передач (F-Type SVR)</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
